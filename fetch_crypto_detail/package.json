@@ -1,0 +1,24 @@
+{
+  "name": "fetch_crypto_detail",
+  "version": "1.0.0",
+  "description": "MCP server to fetch cryptocurrency prices from CoinGecko",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "cryptocurrency",
+    "binance",
+    "price"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "node-fetch": "^2.6.7",
+    "zod": "^3.24.1"
+  }
+}
